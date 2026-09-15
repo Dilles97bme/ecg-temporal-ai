@@ -1,0 +1,5 @@
+model,TP,TN,FP,FN
+Task_A_Logistic,678,401,1172,333
+Task_A_TCN,443,490,1063,568
+Task_B_Logistic,1,2522,8,28
+Task_B_TCN,0,2529,1,29

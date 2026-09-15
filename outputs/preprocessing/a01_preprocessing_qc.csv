@@ -1,0 +1,2 @@
+n_rpeaks,rpeaks_per_minute,rr_min_sec,rr_median_sec,rr_max_sec,rr_invalid_fraction,subject_id,fs,n_samples,duration_min,n_invalid_samples,rpeak_detector
+29962,60.79540074399729,0.41,1.0,1.64,0.0,a01,100.0,2957000,492.8333333333333,0,neurokit2_chunked

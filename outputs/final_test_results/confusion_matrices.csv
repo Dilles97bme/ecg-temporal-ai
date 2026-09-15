@@ -1,0 +1,5 @@
+task,model,TN,FP,FN,TP
+Task_A,LogisticRegression,401,1172,333,678
+Task_A,TCN,490,1063,568,443
+Task_B,LogisticRegression,2522,8,28,1
+Task_B,TCN,2529,1,29,0

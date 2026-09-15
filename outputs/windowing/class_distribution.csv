@@ -1,0 +1,7 @@
+task,split,total_windows,positive_windows,negative_windows,positive_prevalence
+A_detection,train,9682,3785,5897,0.39093162569717
+A_detection,validation,2378,931,1447,0.3915054667788057
+A_detection,test,2584,1011,1573,0.39125386996904027
+B_prediction,train,9582,216,9366,0.022542266750156543
+B_prediction,validation,2353,19,2334,0.008074798130046749
+B_prediction,test,2559,29,2530,0.011332551778038297

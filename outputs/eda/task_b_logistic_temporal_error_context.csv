@@ -1,0 +1,7 @@
+error_type,previous_label,current_label,count
+FN,0,1,28
+FP,0,0,8
+TN,0,0,1512
+TN,1,0,28
+TN,1,1,982
+TP,0,1,1

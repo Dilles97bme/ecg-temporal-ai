@@ -1,0 +1,4 @@
+split,n_records,annotated_minutes,apnea_minutes,normal_minutes,apnea_prevalence
+train,20,9682,3785,5897,0.39093162569717
+validation,5,2378,931,1447,0.3915054667788057
+test,5,2584,1011,1573,0.39125386996904027

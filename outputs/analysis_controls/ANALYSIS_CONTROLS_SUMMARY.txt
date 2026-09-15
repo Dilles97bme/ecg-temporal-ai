@@ -1,0 +1,14 @@
+STEP 13 ANALYSIS CONTROLS SUMMARY
+======================================================================
+
+13A SHUFFLED LABELS:
+Training labels were randomly permuted while features and the record-level split were retained.
+
+13B DETECTION VS PREDICTION:
+The Task A current-event detector was evaluated on Task B target minutes using the target-minute HRV features. This is an oracle/current-event detection control and is not a prospective forecasting model.
+
+13C HORIZON SWEEP:
+Future onset was defined using N->A transitions occurring after the prediction time, while requiring the state immediately before prediction time to be non-apnea.
+
+Outputs:
+/content/drive/MyDrive/ecg_temporal_ai/outputs/analysis_controls

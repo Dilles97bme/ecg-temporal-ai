@@ -1,0 +1,23 @@
+STEP 12 — ROBUSTNESS AND REPRODUCIBILITY
+============================================================
+
+Random seed: 42
+Requested records: 30
+Successfully read: 30
+Records with ECG: 30
+Records with respiratory channel: 0
+Records with SpO2 channel: 0
+
+Signal robustness
+------------------------------------------------------------
+Channels with NaN/Inf samples: 0
+Channels flagged for extreme-value fraction: 27
+Channels flagged as predominantly flat: 0
+
+Handling policy
+------------------------------------------------------------
+Non-finite signal values are detected and handled by the existing preprocessing interpolation policy.
+Flat or severely corrupted segments are flagged rather than causing the pipeline to crash.
+The current supervised pipeline uses ECG only. Respiratory and SpO2 channels are inspected when present but are not required for execution.
+The dataset is therefore robust to absent respiratory or SpO2 channels at the channel-loading stage.
+No silent dropping of records is permitted: failures are recorded in the robustness output files.

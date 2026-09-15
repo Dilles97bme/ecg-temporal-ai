@@ -1,0 +1,6 @@
+subject_id,n,positives,false_positives,false_negatives,true_positives,true_negatives,fp_rate,fn_rate
+a12,572,7,0,7,0,565,0.0,1.0
+a14,504,8,0,8,0,496,0.0,1.0
+b02,512,13,0,13,0,499,0.0,1.0
+c06,463,1,0,1,0,462,0.0,1.0
+c08,508,0,1,0,0,507,0.001968503937007874,0.0
